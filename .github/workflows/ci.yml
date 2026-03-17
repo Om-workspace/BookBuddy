@@ -1,27 +1,32 @@
 name: CI Pipeline
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
+push:
+branches:
+- main
+pull_request:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+build:
+runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+steps:
+  - name: Checkout code
+    uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
+  - name: Set up Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: "3.10"
 
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+  - name: Install dependencies
+    working-directory: ./bookbuddy-ai
+    run: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
 
-      - name: Run basic check
-        run: |
-          python -c "import app.main"
+  - name: Check Python syntax
+    working-directory: ./bookbuddy-ai
+    run: |
+      python -m py_compile $(find . -name "*.py")
+
