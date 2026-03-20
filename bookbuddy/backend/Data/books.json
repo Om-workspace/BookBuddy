@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "Atomic Habits",
+        "genre": "self-help",
+        "mood": "motivational",
+        "description": "A practical guide to building good habits and breaking bad ones.",
+        "pdf_url": "https://drive.google.com/uc?id=101"
+    },
+    {
+        "id": 2,
+        "title": "Deep Work",
+        "genre": "self-help",
+        "mood": "focused",
+        "description": "Teaches how to concentrate deeply and produce high-quality work.",
+        "pdf_url": "https://drive.google.com/uc?id=102"
+    },
+    {
+        "id": 3,
+        "title": "The Alchemist",
+        "genre": "fiction",
+        "mood": "inspirational",
+        "description": "A story about following your dreams and listening to your heart.",
+        "pdf_url": "https://drive.google.com/uc?id=103"
+    },
+    {
+        "id": 4,
+        "title": "1984",
+        "genre": "fiction",
+        "mood": "dark",
+        "description": "A dystopian novel exploring surveillance and totalitarianism.",
+        "pdf_url": "https://drive.google.com/uc?id=104"
+    },
+    {
+        "id": 5,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "genre": "fantasy",
+        "mood": "adventurous",
+        "description": "A young wizard begins his magical journey at Hogwarts.",
+        "pdf_url": "https://drive.google.com/uc?id=105"
+    },
+    {
+        "id": 6,
+        "title": "The Hobbit",
+        "genre": "fantasy",
+        "mood": "adventurous",
+        "description": "A hobbit embarks on a quest to reclaim a lost treasure.",
+        "pdf_url": "https://drive.google.com/uc?id=106"
+    },
+    {
+        "id": 7,
+        "title": "Rich Dad Poor Dad",
+        "genre": "finance",
+        "mood": "educational",
+        "description": "Explains financial literacy and wealth-building mindset.",
+        "pdf_url": "https://drive.google.com/uc?id=107"
+    },
+    {
+        "id": 8,
+        "title": "Zero to One",
+        "genre": "business",
+        "mood": "innovative",
+        "description": "Focuses on building unique startups and creating value.",
+        "pdf_url": "https://drive.google.com/uc?id=108"
+    },
+    {
+        "id": 9,
+        "title": "Sapiens",
+        "genre": "history",
+        "mood": "informative",
+        "description": "A brief history of humankind and its evolution.",
+        "pdf_url": "https://drive.google.com/uc?id=109"
+    },
+    {
+        "id": 10,
+        "title": "Clean Code",
+        "genre": "technology",
+        "mood": "educational",
+        "description": "Best practices for writing clean and maintainable code.",
+        "pdf_url": "https://drive.google.com/uc?id=110"
+    },
+    {
+        "id": 11,
+        "title": "The Lean Startup",
+        "genre": "business",
+        "mood": "strategic",
+        "description": "A methodology for building startups efficiently.",
+        "pdf_url": "https://drive.google.com/uc?id=111"
+    },
+    {
+        "id": 12,
+        "title": "Dune",
+        "genre": "sci-fi",
+        "mood": "epic",
+        "description": "A science fiction saga set on a desert planet.",
+        "pdf_url": "https://drive.google.com/uc?id=112"
+    },
+    {
+        "id": 13,
+        "title": "The Martian",
+        "genre": "sci-fi",
+        "mood": "survival",
+        "description": "An astronaut struggles to survive on Mars.",
+        "pdf_url": "https://drive.google.com/uc?id=113"
+    },
+    {
+        "id": 14,
+        "title": "Gone Girl",
+        "genre": "thriller",
+        "mood": "dark",
+        "description": "A psychological thriller about a missing wife.",
+        "pdf_url": "https://drive.google.com/uc?id=114"
+    },
+    {
+        "id": 15,
+        "title": "The Silent Patient",
+        "genre": "thriller",
+        "mood": "suspenseful",
+        "description": "A woman stops speaking after a shocking crime.",
+        "pdf_url": "https://drive.google.com/uc?id=115"
+    }
+]
